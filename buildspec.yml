@@ -16,7 +16,6 @@ phases:
         # Command for specific kubectl version:
         #- curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl
       - chmod +x ./kubectl ./aws-iam-authenticator
-      - echo `kubectl version`
       - export PATH=$PWD/:$PATH
       - apt-get update && apt-get -y install jq python3-pip python3-dev  && pip3 install --upgrade awscli
   pre_build:
