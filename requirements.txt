@@ -2,3 +2,5 @@ pyjwt
 flask
 gunicorn
 pytest
+urllib3[secure]
+pyOpenSSL ndg-httpsclient pyasn1
