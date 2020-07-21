@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 
 ---
+||||||| merged common ancestors
+<<<<<<< HEAD
+---
+=======
+
+>>>>>>> 3da73721081b2e311040327eb0f0b16a287afa7c
 AWSTemplateFormatVersion: 2010-09-09
 
 Description: EKSWSV1
